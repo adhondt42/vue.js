@@ -1,0 +1,19 @@
+## My Wiki Vue.js
+
+
+
+## Variables 
+# Simple
+{{ variable }}
+# Dans des balises
+:value="message" (message = varaible)
+v-model="message" (la balise va etre lié à la variable
+                   peux modifier la variable en live !)
+
+
+#condition 
+    v-if="variable" (variable = true ou false)
+    v-else
+
+#Comportement
+    @click="method" (click = evenement; method dans .js)
