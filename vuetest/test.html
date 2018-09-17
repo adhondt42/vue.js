@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <link rel="stylesheet" href="../public/semantic/semantic.min.css">
+    <style>
+    .main.container{
+        margin-top: 5em;
+    }
+    </style>
+</head>
+<body>
+    <div class="ui inverted fixed menu">
+        </div>
+
+        <div class="ui main container" id="app">
+            <input type="checkbox" v-model="success">
+            <input type="text" v-model="message">
+            <div class="ui message" :class="cls()">
+                Salut les gens
+            </div>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="test.js"></script>
+
+</body>
+</html>

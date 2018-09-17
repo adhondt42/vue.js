@@ -17,3 +17,14 @@ v-model="message" (la balise va etre lié à la variable
 
 #Comportement
     @click="method" (click = evenement; method dans .js)
+## Modfiers de comportement
+### modifier click 
+    #@click.prevent : lance fonction mais stop l'event 
+    .stop : Stop la propagation en bubble 
+    .self : ne detecte pas si le click proveint d'un event enfant 
+### modifier v-model 
+    v-model.lazy : changement si sortie de form 
+    .trim : trim devant derriere 
+## ajouter comportement dans un form
+    @keyup="demo" lance demo si lacher de touche 
+    @keyup.space="demo" lance demo si lacher de la touche space
